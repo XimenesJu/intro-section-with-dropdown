@@ -105,13 +105,41 @@ span {
 main {
   margin-top: 5%;
   display: flex;
+  justify-content: space-around;
 }
+
+#sectxt>input[type=button] {
+
+  float: left;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background-color: black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#sectxt>input[type=button]:hover {
+  background-color: rgb(96, 96, 96);
+  border: 2px solid rgb(96, 96, 96);
+}
+
+#logos {
+  width: 80%;
+  margin-top: 15%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
 
 .secimg {
   width: 50%;
 }
 
-section>img {
+#secimg>img {
   width: 100%;
   height: 450px;
 }
