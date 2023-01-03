@@ -48,3 +48,29 @@
  
 // img.src = '../images/image-hero-desktop.png'; 
 
+let aberto = false
+const botaozinho = document.querySelector('#botaozinho') 
+botaozinho.addEventListener('click', clicar)
+function clicar() {
+  if (aberto === false) {
+    nicolas[0].classList.remove('hide')
+    aberto = true
+    nicolas[0].style.display = 'block'
+  } 
+  else if (aberto === true) {
+    nicolas[0].classList.add('hide')
+    aberto = false
+    nicolas[0].style.display = 'none'
+  }
+
+
+
+
+
+  
+}
+
+const nicolas = document.querySelectorAll('.nicolas')
+for (let indice = 0; indice < nicolas.length; indice++) {
+  console.log(nicolas[indice])
+}
