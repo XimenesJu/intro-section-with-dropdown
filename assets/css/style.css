@@ -7,13 +7,15 @@ input {
 }
 
 
-header,
-div {
+header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   width: auto;
 }
+
+
 
 input[type=button] {
 
@@ -33,8 +35,14 @@ input[type=button]:hover {
 }
 
 .header-btns {
-  width: 15%;
+  width: 45%;
 
+}
+
+div#menu {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
 }
 
 ul {
@@ -44,10 +52,7 @@ ul {
   overflow: hidden;
 }
 
-li {
-  float: left;
 
-}
 
 li a,
 .dropbtn {
@@ -88,9 +93,9 @@ li.dropdown {
   background-color: rgb(194, 194, 194);
 }
 
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 
 
@@ -142,13 +147,12 @@ main {
 
 span,
 #setinha {
-  display: block;
+  display: inline-block;
   align-self: center;
   background-image: url('../images/icon-arrow-down.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-color: red;
   height: 15px;
   width: 15px;
   text-align: center;
