@@ -80,13 +80,15 @@ li.dropdown {
   position: absolute;
   background-color: rgb(241, 240, 240);
   min-width: 100px;
-  margin-left: 15px;
+  margin-left: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dpd2 {
   padding-right: 5px;
+  margin-left: 15px;
+
 }
 
 .dropdown-content a {
@@ -165,6 +167,34 @@ span,
   width: 15px;
   text-align: center;
 
+}
+
+#dpdicon1,
+#dpdicon2,
+#dpdicon3,
+#dpdicon4 {
+  display: inline-block;
+  align-self: center;
+  background-image: url('../images/icon-todo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#dpdicon2 {
+  background-image: url('../images/icon-calendar.svg');
+}
+
+#dpdicon3 {
+  background-image: url('../images/icon-reminders.svg');
+}
+
+#dpdicon4 {
+  background-image: url('../images/icon-planning.svg');
 }
 
 .hide {
