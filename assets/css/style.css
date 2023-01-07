@@ -115,17 +115,14 @@ li.dropdown {
   background-color: rgb(194, 194, 194);
 }
 
-/* .dropdown:hover .dropdown-content {
-  display: block;
-} */
-
 
 
 main {
   margin-top: 5%;
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  position: relative;
 }
+
 
 #sectxt>input[type=button] {
 
@@ -145,27 +142,46 @@ main {
   border: 2px solid rgb(96, 96, 96);
 }
 
-#logos {
-  width: 80%;
-  margin-top: 15%;
-  align-items: center;
-  justify-content: space-around;
+
+
+#sectxt {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  width: 40%;
+  text-align: justify;
 }
 
 
+#sectxt>h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
 
-.secimg {
-  width: 50%;
+#sectxt>p {
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+#sectxt>#logos {
+  display: flex;
+  position: absolute;
+  top: 250px;
+  margin-top: 35px;
 }
 
 #secimg>img {
-  width: 100%;
-  height: 450px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  margin-right: 50px;
+  width: 35%;
+  height: 400px;
+
 }
 
-#sectxt {
-  width: 50%;
-}
+
 
 span,
 #setinha {
