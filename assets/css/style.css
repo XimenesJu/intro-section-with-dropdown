@@ -4,6 +4,7 @@ body,
 input {
   font-family: 'Be Vietnam Pro', sans-serif;
   margin: 2%;
+  width: auto;
 }
 
 
@@ -13,6 +14,13 @@ header {
   align-items: center;
   justify-content: space-between;
   width: auto;
+}
+
+header>img {
+  position: absolute;
+  display: inline;
+  top: 30px;
+  left: 50px;
 }
 
 button {
@@ -41,17 +49,21 @@ input[type=button]:hover {
 }
 
 .header-btns {
-  width: 45%;
-
+  position: absolute;
+  top: 20px;
+  right: 50px;
 }
 
 div#menu {
   display: flex;
-  flex-direction: row;
   width: fit-content;
+  position: absolute;
+  left: 20%;
+  top: 20px;
 }
 
 ul {
+  text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
